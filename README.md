@@ -1,1 +1,7 @@
-# JS-Practicce
+# 前端日常练习
+
+[TOC] 
+
+> 前端每日面试题练习
+
+## 第一部分-JavaScript函数作用域
