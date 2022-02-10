@@ -75,6 +75,11 @@ console.log(Object.getPrototypeOf(con_one))// 构造函数的原型对象
 console.log(Object.getPrototypeOf(Construct)) // Function.prototype
 console.log(Object.getPrototypeOf(Construct.prototype)) // Object.prototype
 
+// 特殊的例子，Object()构造函数的原型是Fucntion.prototype,他的实例对象的原型才是Object.prototype
+console.log(Function.prototype.isPrototypeOf(Object))//true
+console.log(Object.prototype.isPrototypeOf(new Object()))//true
+
+
 let proto_obj = {
     name: "proto"
 }
